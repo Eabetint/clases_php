@@ -41,4 +41,19 @@ if (($x==$y) && ($x === $y)) {
 if (($x==$y) || ($x > 0)) {
     echo "$x es igual a $y ó $x es identico a $y";
 }
+
+echo '<br>';
+
+switch ($x) {
+    case '10':
+        echo "Es un 10";
+        break;
+    case '20':
+         echo "Es un 20";
+         break;    
+    
+    default:
+        echo "Nada";
+        break;
+}
 ?>
